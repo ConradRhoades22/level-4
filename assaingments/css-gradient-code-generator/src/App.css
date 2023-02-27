@@ -1,0 +1,30 @@
+.color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 2px solid black;
+}
+
+#colorImg {
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(180deg, red, yellow);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+textarea {
+  min-width: 400px;
+  min-height: 150px;
+}
