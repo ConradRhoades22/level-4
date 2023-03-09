@@ -12,8 +12,8 @@
 
 .uList h2 {
   display: flex;
-  justify-content: start;
-  align-content: start;
+  justify-content: flex-start;
+  align-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
   align-self: flex-start;
@@ -58,6 +58,8 @@ ul {
 
 .editForm{
   display: flex;
+  flex-direction: column;
+  
 }
 
 .thing {
@@ -88,15 +90,13 @@ form input {
   width: 200px;
 }
 
-form button{
+form button.submit{
   width: 206px;
 }
 
 button.deleteBtn {
-  padding: 5px;
-  margin-left: 5px;
   margin-top: 5px;
-  width: 100%;
+  width: 206px;
 }
 button.deleteBtn:hover {
   background-color: rgb(255, 80, 80);
@@ -107,6 +107,7 @@ button {
   border:1px black solid;
   background-color: rgba(96,196,209,1);
   border-radius: 5px;
+  width: 206px;
 }
 
 form button:hover {
