@@ -59,7 +59,8 @@ ul {
 .editForm{
   display: flex;
   flex-direction: column;
-  
+  width: fit-content;
+  margin: auto;
 }
 
 .thing {
