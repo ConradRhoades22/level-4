@@ -9,7 +9,10 @@ export default function Color(props){
     return(
     <div className="color">
         <img id="colorImg"></img> 
-        <textarea className="cssCode" readOnly value={`background-image: linear-gradient(${props.angle.target.value}deg, ${props.color1}, ${props.color2})`}/>
+        <div className="Text">
+            <h2>Copy this text to get your gradient code:</h2>
+            <textarea className="cssCode" readOnly value={`background-image: linear-gradient(${props.angle.target.value}deg, ${props.color1}, ${props.color2})`}/>
+        </div>
     </div>
 )
 }
